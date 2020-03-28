@@ -11,7 +11,6 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
-        turtle[:traits] == trait
       trait
     end
   end
